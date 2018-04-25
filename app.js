@@ -9,6 +9,7 @@ const loadData = (err, data) => {
     createRoutes(data);
 }
 
+//console.log("oi")
 const createRoutes = data => {
     app.get('/', (req, res) => {
         res.send(data);
